@@ -11,8 +11,8 @@ jobs:
         shell: bash
         run: 
           echo Hello world! this is the first job
-      - name: checkout 
-        uses: actions/checkout@v4
+      # - name: checkout 
+      #   uses: actions/checkout@v4
       - name: print to log
         id: print-to-log
         uses: actions/hello-world-java-script-action@main
